@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 # Create a new client and connect to the server
 
-
+print("LE HAI DUONG")
 def functionPython(input_text):
     if input_text=="addUser":
         client = MongoClient(uri, server_api=ServerApi('1'))
